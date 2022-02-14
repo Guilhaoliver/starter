@@ -15,6 +15,7 @@ public class Index {
         ModelAndView modelAndView = new ModelAndView("home");
 
         return modelAndView;
+
     }
     @GetMapping("/filmes")
     public String filmes(){
